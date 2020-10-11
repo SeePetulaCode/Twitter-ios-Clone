@@ -24,6 +24,7 @@ class HomeTableViewController: UITableViewController {
         
         TwitterAPICaller.client?.logout()
         self.dismiss(animated: true, completion: nil)
+        
     }
     // MARK: - Table view data source
 
