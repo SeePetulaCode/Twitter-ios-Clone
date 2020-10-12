@@ -50,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="120" id="Ylp-KJ-sJi">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="tweetCell" rowHeight="120" id="Ylp-KJ-sJi" customClass="TweetCellTableViewCell" customModule="Twitter" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Ylp-KJ-sJi" id="HTv-r9-1sW">
@@ -88,6 +88,11 @@
                                         <constraint firstItem="U0O-b1-Sy8" firstAttribute="leading" secondItem="QM0-Jt-Lse" secondAttribute="trailing" constant="8" id="gI8-Vu-1Xa"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="profileImageView" destination="QM0-Jt-Lse" id="ay1-T5-N5Y"/>
+                                    <outlet property="tweetContent" destination="U0O-b1-Sy8" id="tdf-qP-EkK"/>
+                                    <outlet property="userNameLabel" destination="E7M-DI-LBD" id="wRd-uP-bJg"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
