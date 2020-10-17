@@ -25,7 +25,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://github.com/SeePetulaCode/Twitter-ios-Clone' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='http://g.recordit.co/06jCit7FRt.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 **Twitter Clone App** is a basic twitter app to read your tweets.
